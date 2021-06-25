@@ -1,6 +1,7 @@
 import { getCustomRepository } from "typeorm"
 import { UsersRepositories } from "../repositories/UsersRepositories"
 import { hash } from "bcryptjs";
+console.log("sldksal")
 
 interface IUserRequest {
     name: string;
